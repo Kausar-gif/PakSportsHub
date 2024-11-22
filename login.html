@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - SportsHub</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <a href="/index.html" class="logo">SportsHub<span class="logo-dot">.</span></a>
+    </nav>
+
+    <div class="auth-container login-container">
+        <div class="auth-header">
+            <h1>Welcome Back</h1>
+            <p>Please enter your details to sign in</p>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="remember-forgot">
+                <label class="remember-me">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="auth-button">Sign In</button>
+        </form>
+
+        <div class="auth-prompt">
+            Don't have an account? <a href="signup.html">Sign up</a>
+        </div>
+
+        <div class="social-auth">
+            <p>Or continue with</p>
+            <div class="social-buttons">
+                <button class="social-button">Google</button>
+                <button class="social-button">Facebook</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

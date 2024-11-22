@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - SportsHub</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <a href="index.html" class="logo">SportsHub<span class="logo-dot">.</span></a>
+    </nav>
+
+    <div class="auth-container signup-container">
+        <div class="auth-header">
+            <h1>Create Account</h1>
+            <p>Join SportsHub to get all updates</p>
+        </div>
+
+        <form id="signupForm">
+            <div class="name-fields">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" placeholder="Enter first name" required>
+                    <span class="error-message" id="firstNameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" placeholder="Enter last name" required>
+                    <span class="error-message" id="lastNameError"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create a password" required>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+                <span class="error-message" id="confirmPasswordError"></span>
+            </div>
+
+            <div class="terms">
+                <label>
+                    <input type="checkbox" required>
+                    I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                </label>
+            </div>
+
+            <button type="submit" class="auth-button">Create Account</button>
+        </form>
+
+        <div class="auth-prompt">
+            Already have an account? <a href="login.html">Sign in</a>
+        </div>
+
+        <div class="social-auth">
+            <p>Or sign up with</p>
+            <div class="social-buttons">
+                <button class="social-button">Google</button>
+                <button class="social-button">Facebook</button>
+            </div>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

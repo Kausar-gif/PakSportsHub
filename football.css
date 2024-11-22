@@ -1,0 +1,171 @@
+.results-fixtures {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.section-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.section {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    justify-content: center;
+}
+
+.section-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.match-card {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.match-card:last-child {
+    border-bottom: none;
+}
+
+.team-names {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.team {
+    font-weight: 500;
+    color: #444;
+    min-width: 100px;
+}
+
+.score {
+    font-weight: bold;
+    color: #333;
+    padding: 0 15px;
+}
+
+.match-info {
+    color: #666;
+    font-size: 14px;
+    text-align: right;
+}
+
+.fixture .match-info {
+    color: #2196F3;
+}
+
+.result .score {
+  
+    background: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.pakloss,.pakwin
+{
+  margin-right: 30px;
+  
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.pakloss
+{
+  background-color:rgba(247, 9, 9, 0.911);
+
+}
+.pakwin
+{
+background-color:rgba(9, 247, 9, 0.911);
+}
+
+
+.points
+{
+    margin-left: 80%;
+
+}
+
+.volleyball-scorecard {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 12px; /* Smaller text size */
+  }
+  
+  .volleyball-scorecard table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .volleyball-scorecard td {
+    text-align: center;
+    padding: 5px; /* Reduced padding */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .volleyball-scorecard .team {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Smaller gap between flag and text */
+    padding-left: 5px; /* Reduced padding */
+  }
+  
+  .volleyball-scorecard .flag {
+    width: 15px; /* Smaller flag size */
+    height: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .volleyball-scorecard .score {
+    font-size: 1em; /* Smaller score font */
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .volleyball-scorecard  {
+    color: #555;
+    font-size: 0.9em; /* Smaller font for set scores */
+  }
+
+  .set-score {
+    border: 1px solid #ddd; /* Box border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px; /* Space inside the box */
+    text-align: center; /* Center the text */
+    display: inline-block; /* Make it behave like a box */
+    min-width: 30px; /* Minimum width for uniformity */
+    background-color: #f9f9f9; /* Light background for contrast */
+    font-weight: lighter; /* Make the text stand out */
+  }
+  
+  
+  .home-win{
+    background-color: green;
+  }
+  
+

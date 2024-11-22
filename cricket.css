@@ -1,0 +1,184 @@
+
+.cricket-rankings {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.cricket-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+}
+
+.cricket-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cricket-section {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.cricket-section-title {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cricket-card {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cricket-card:last-child {
+    border-bottom: none;
+}
+
+.cricket-team-names {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.cricket-team {
+    font-weight: 500;
+    color: #444;
+}
+
+.cricket-rating {
+    font-weight: bold;
+    color: #333;
+    padding: 0 15px;
+}
+
+.cricket-info {
+    color: #666;
+    font-size: 14px;
+    text-align: right;
+    min-width: 100px;
+}
+
+.section-container
+{
+    display: flex;
+
+}
+
+.results-fixtures {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.section-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.section {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    justify-content: center;
+}
+
+.section-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.match-card {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.match-card:last-child {
+    border-bottom: none;
+}
+
+.team-names {
+    display: block;
+    gap: 10px;
+    flex: 1;
+}
+
+.team {
+    font-weight: 500;
+    color: #444;
+    min-width: 150px;
+}
+
+.score {
+    font-weight: bold;
+    color: #333;
+    padding: 0 15px;
+}
+
+.match-info {
+    color: #666;
+    font-size: 14px;
+    text-align: right;
+    min-width: 100px;
+}
+
+.fixture .match-info {
+    color: #2196F3;
+}
+
+.result .score {
+    background: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#pak{
+    background-color: #bbb;
+}
+
+.head
+{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating{
+    color: #666;
+    font-size: 14px;
+    text-align: right;
+    min-width: 100px;
+}
+
+
